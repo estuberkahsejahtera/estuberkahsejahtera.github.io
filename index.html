@@ -5,6 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CV. Estu Berkah Sejahtera</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .wa-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+      transition: transform 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wa-float img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .wa-float:hover {
+      transform: scale(1.2);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,6 +40,7 @@
     <h1>CV. Estu Berkah Sejahtera</h1>
     <p>Solusi Layanan Profesional dan Terpercaya</p>
   </header>
+
   <nav>
     <a href="index.html">Beranda</a>
     <a href="layanan.html">Layanan</a>
@@ -19,10 +48,16 @@
     <a href="toko.html">Toko Online</a>
     <a href="#kontak">Kontak</a>
   </nav>
+
   <main>
-    <h2>Hubungi Kami</h2>
+    <h2 id="kontak">Hubungi Kami</h2>
     <p>Silakan isi formulir di bawah ini untuk menghubungi kami:</p>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOfx4fpxGpR-YZuaRERB1eR1ImVNbqaT2cDpVwTLXHsblQCw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
   </main>
+
+  <!-- Tombol WhatsApp Mengambang -->
+  <a href="https://wa.me/6281234567890" class="wa-float" target="_blank" title="Hubungi via WhatsApp">
+    <img src="whatsapp-icon.png" alt="WhatsApp">
+  </a>
 </body>
 </html>

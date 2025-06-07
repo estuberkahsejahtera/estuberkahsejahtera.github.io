@@ -25,3 +25,18 @@ nav a:hover {
   padding: 5px 10px;
   border-radius: 8px;
 }
+body {
+  background-image: url('e1e650c1-f016-47cd-b795-022cc04c985d.png'); /* Ganti jika diletakkan di folder */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; /* Biar teksnya tetap terbaca */
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.6); /* Lapisan transparan agar teks makin terbaca */
+  padding: 20px;
+  border-radius: 10px;
+}
+

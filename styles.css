@@ -40,3 +40,29 @@ main {
   border-radius: 10px;
 }
 
+.testimoni-carousel {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  font-style: italic;
+  color: #333;
+  padding: 20px;
+  border-left: 4px solid #25D366;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.slide.active {
+  display: block;
+}
